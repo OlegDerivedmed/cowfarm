@@ -21,7 +21,7 @@ Application represents cow farm. See some instructions and explanations below.
     Cow with id 1 is always on the top of hierarchy
     4. For giveBirth method I decided to generate id for new cow instead of adding it manually.
     There simple counters for this purpose.
-    5. 'Mother cow' which is on top of hierarchy alwasys alive.
+    5. 'Mother cow' which is on top of hierarchy will be crated automatically for every solution and always alive.
 
 #Solutions notes
 
