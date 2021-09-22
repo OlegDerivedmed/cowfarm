@@ -26,13 +26,13 @@ Application represents cow farm. See some instructions and explanations below.
 #Solutions notes
 
     1. For solution 1 I decided not to use graph and used simple data structure Map<Cow, List<Cow>>.
-    Every cow have id, name and parent. 
+    Every cow has id, name and parent. 
     Print farm and hierarchy looks like I described in general notes.
     add new cow - adding new entry to map with empty list + adding this new cow to parent`s list.
-    remove cow - removing entry from map + removing from parent`s list.
+    remove cow - removing entry from map + removing from parent`s list. Removed cow stay parent for all it`s childs (It`s logical).
 
     2. Solution 2 is more complicated and it`s kind of graph.
-    Every cow have id, name, parent, child, left, right.
+    Every cow has id, name, parent, child, left, right.
     Print farm and hierarchy looks like I described in general notes and same with solution 1.
     add new cow - if parent cow have no child -> new cow = child of parent cow; if parent cow 
     already have child -> add to most right cow in chain
